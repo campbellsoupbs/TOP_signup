@@ -87,6 +87,34 @@
     box-sizing: border-box;
 }
 
+.middle_text {
+    margin-left: 40px;
+    font-size: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
+label {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input:focus {
+    box-shadow: 3px 3px 5px rgb(85, 85, 85);
+}
+
 .bottom {
     height: 264px;
     width: auto;
