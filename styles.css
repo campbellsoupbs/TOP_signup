@@ -72,9 +72,10 @@
     height: 250px;
     width: auto;
     padding: 40px;
-    background-color: rgb(229, 254, 236);
+    background-color: rgb(249, 254, 251);
     flex-shrink: 0;
     font-size: 10px;
+    font-family: sans-serif;
     white-space: pre-wrap;    
 }
 
@@ -82,7 +83,7 @@
 .middle {
     height: 250px;
     width: auto;
-    background-color: rgb(255, 249, 187); 
+    background-color: rgb(231, 237, 233);
     flex-shrink: 0;
     box-sizing: border-box;
 }
@@ -90,6 +91,7 @@
 .middle_text {
     margin-left: 40px;
     font-size: 10px;
+    font-family: sans-serif;
 }
 
 form {
@@ -115,10 +117,49 @@ input:focus {
     box-shadow: 3px 3px 5px rgb(85, 85, 85);
 }
 
+input:invalid {
+    border-color: red;
+  }
+
+
+
 .bottom {
     height: 264px;
     width: auto;
-    background-color: rgb(229, 254, 236);
+    background-color: rgb(249, 254, 251);
     flex-shrink: 0;
     box-sizing: border-box;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    width: 148px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(24, 70, 24);
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+
+}
+
+button:hover {
+    background-color: rgb(246, 209, 0);
+}
+
+button:active {
+    box-shadow: 3px 3px 5px rgb(85, 85, 85);
+}
+
+.button_text {
+    margin-left: 100px;
+    font-size: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(24, 70, 24);
 }

@@ -33,7 +33,7 @@ Sign up <i>now</i> to get started.</h1>
                         <input type="text" id="first_name" name="first_name">
                         
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" placeholder="address@email.com">
                         
                         <label for="password">PASSWORD</label>
                         <input type="password" name="password" id="password">
@@ -43,7 +43,7 @@ Sign up <i>now</i> to get started.</h1>
                         <input type="text" id="last_name" name="last_name">
                         
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="text" id="phone" name="phone">
+                        <input type="text" id="phone" name="phone" placeholder="555-555-5555" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
                         
                         <label for="confirm_password">CONFIRM PASSWORD</label>
                         <input type="password" name="confirm_password" id="confirm_password">
@@ -51,7 +51,12 @@ Sign up <i>now</i> to get started.</h1>
 
                 </form>
             </div>
-            <div class="bottom"></div>
+            <div class="bottom">
+                <button type="submit">Create Account</button>
+                <div class="button_text">
+                    <h1>Already have an account? <span><a href="#">Log in</a></span></h1>
+                </div>
+            </div>
         </div>
     </div>
 </body>
