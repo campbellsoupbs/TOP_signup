@@ -121,6 +121,15 @@ input:invalid {
     border-color: red;
   }
 
+.wrong {
+    border-color: red;
+}
+
+.wrongpassword {
+    margin-top: -13px;
+    font-size: 10px;
+    color: red;
+}
 
 
 .bottom {
